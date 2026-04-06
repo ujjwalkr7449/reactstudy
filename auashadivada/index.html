@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aushadi Veda - Discover Natural Healing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#22c55e',
+                        secondary: '#4ade80'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-white">
+    <header class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+        <nav class="container mx-auto px-4 h-16 flex items-center justify-between">
+            <div>
+            <img src="Aushadi logo.png" alt="Aushadi Veda Logo" class="h-12 w-13" /> 
+        </div>
+            
+            <div class="flex items-center gap-8">
+                <a href="#" class="text-gray-600 hover:text-primary">Home</a>
+                <a href="#" class="text-gray-600 hover:text-primary">Medicinal Plant</a>
+                <a href="#" class="text-gray-600 hover:text-primary">Home Remedies</a>
+                <a href="#" class="text-gray-600 hover:text-primary">VR Tour</a>
+                <a href="#" class="text-gray-600 hover:text-primary">Product</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <div class="relative">
+                    <input type="text" placeholder="Search" class="pl-10 pr-4 py-2 rounded-full bg-gray-50 border-none text-sm w-64">
+                    <i class="ri-search-line absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                </div>
+                <button class="px-6 py-2 border border-primary text-primary rounded-button hover:bg-primary/5">Join Now</button>
+                <button class="px-6 py-2 bg-primary text-white rounded-button hover:bg-primary/90">Login</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-16">
+        <section class="relative h-[600px] bg-cover bg-center" style="background-image: url('https://public.readdy.ai/ai/img_res/ca74a976fc98215963b7bcf90b69080d.jpg')">
+            <div class="absolute inset-0 bg-black/30"></div>
+            <div class="container mx-auto px-4 h-full flex flex-col items-center justify-center text-center relative z-10">
+                <h1 class="text-6xl font-bold text-white mb-4">Welcome To Aushadi Veda</h1>
+                <p class="text-xl text-white/90 mb-2">Discover the power of natural with Aushadi Veda</p>
+                <p class="text-lg text-white/80">Ministry of Ayush</p>
+            </div>
+            
+            <div class="absolute bottom-8 left-1/2 -translate-x-1/2 w-[800px] bg-white/90 backdrop-blur rounded-full">
+                <div class="flex items-center justify-between px-12 py-6">
+                    <div class="text-center">
+                        <h3 class="text-primary font-semibold">A</h3>
+                        <p class="text-gray-700">Ayurveda</p>
+                    </div>
+                    <div class="h-12 w-px bg-gray-200"></div>
+                    <div class="text-center">
+                        <h3 class="text-primary font-semibold">Y</h3>
+                        <p class="text-gray-700">Yoga</p>
+                    </div>
+                    <div class="h-12 w-px bg-gray-200"></div>
+                    <div class="text-center">
+                        <h3 class="text-primary font-semibold">U</h3>
+                        <p class="text-gray-700">Unani</p>
+                    </div>
+                    <div class="h-12 w-px bg-gray-200"></div>
+                    <div class="text-center">
+                        <h3 class="text-primary font-semibold">S</h3>
+                        <p class="text-gray-700">Siddha</p>
+                    </div>
+                    <div class="h-12 w-px bg-gray-200"></div>
+                    <div class="text-center">
+                        <h3 class="text-primary font-semibold">H</h3>
+                        <p class="text-gray-700">Home</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-2 gap-12 items-center">
+                    <div class="rounded-2xl overflow-hidden">
+                        <img src="https://public.readdy.ai/ai/img_res/741677b64d9f5effda55136de95b3474.jpg" 
+                             alt="Virtual Tour" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h2 class="text-4xl font-bold text-gray-800 mb-6">Virtual Tour</h2>
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            In this virtual tour, you can learn about any plant you are interested in. Additionally, you can explore detailed information about its characteristics, uses, habitat, and benefits through an interactive experience.
+                        </p>
+                        <button class="mt-8 px-8 py-3 bg-primary text-white rounded-button hover:bg-primary/90">
+                            Start Tour
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-4xl font-bold text-gray-800 mb-6">Home Remedies</h2>
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            In the Home Remedies section, you can explore how to prepare Ayurvedic medicines at home using natural ingredients. Learn easy remedies for common health issues, along with the benefits of herbs and spices.
+                        </p>
+                        <button class="mt-8 px-8 py-3 bg-primary text-white rounded-button hover:bg-primary/90">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="rounded-2xl overflow-hidden">
+                        <img src="https://public.readdy.ai/ai/img_res/5376bcbc5f4b5e2e2ccc118e8df16311.jpg" 
+                             alt="Home Remedies" 
+                             class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold text-gray-800 mb-12">Featured Products</h2>
+                <div class="grid grid-cols-4 gap-8">
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <img src="https://public.readdy.ai/ai/img_res/7c9b3b1c75a3e8f20fd170065d381476.jpg" 
+                             alt="Product 1" 
+                             class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Herbal Supplements</h3>
+                        <p class="text-gray-600 mb-4">Natural wellness support for daily health</p>
+                        <button class="w-full py-2 bg-primary text-white rounded-button hover:bg-primary/90">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <img src="https://public.readdy.ai/ai/img_res/4fc01f511dd2242eca68acba377a6ce7.jpg" 
+                             alt="Product 2" 
+                             class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Massage Oils</h3>
+                        <p class="text-gray-600 mb-4">Traditional Ayurvedic massage oils</p>
+                        <button class="w-full py-2 bg-primary text-white rounded-button hover:bg-primary/90">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <img src="https://public.readdy.ai/ai/img_res/50f05ad27febfd6d3453f72344e77f80.jpg" 
+                             alt="Product 3" 
+                             class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Herbal Teas</h3>
+                        <p class="text-gray-600 mb-4">Therapeutic blends for wellness</p>
+                        <button class="w-full py-2 bg-primary text-white rounded-button hover:bg-primary/90">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <img src="https://public.readdy.ai/ai/img_res/7784401b1dea7386e0934746045e869e.jpg" 
+                             alt="Product 4" 
+                             class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Natural Skincare</h3>
+                        <p class="text-gray-600 mb-4">Ayurvedic beauty solutions</p>
+                        <button class="w-full py-2 bg-primary text-white rounded-button hover:bg-primary/90">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold text-gray-800 mb-12">What Our Customers Say</h2>
+                <div class="grid grid-cols-3 gap-8">
+                    <div class="bg-white rounded-xl p-8 shadow-sm">
+                        <div class="text-primary mb-4">
+                            <i class="ri-double-quotes-l text-4xl"></i>
+                        </div>
+                        <p class="text-gray-600 mb-6">
+                            "The virtual tour feature helped me learn so much about medicinal plants. It's like having an expert guide right at your fingertips!"
+                        </p>
+                        <div class="flex items-center justify-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
+                                <i class="ri-user-3-line text-xl text-gray-500"></i>
+                            </div>
+                            <div class="text-left">
+                                <h4 class="font-semibold text-gray-800">Sarah Johnson</h4>
+                                <p class="text-gray-500">Wellness Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-8 shadow-sm">
+                        <div class="text-primary mb-4">
+                            <i class="ri-double-quotes-l text-4xl"></i>
+                        </div>
+                        <p class="text-gray-600 mb-6">
+                            "The home remedies section has become my go-to resource for natural healing. Simple yet effective solutions for everyday health issues."
+                        </p>
+                        <div class="flex items-center justify-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
+                                <i class="ri-user-3-line text-xl text-gray-500"></i>
+                            </div>
+                            <div class="text-left">
+                                <h4 class="font-semibold text-gray-800">Michael Chen</h4>
+                                <p class="text-gray-500">Natural Health Advocate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-8 shadow-sm">
+                        <div class="text-primary mb-4">
+                            <i class="ri-double-quotes-l text-4xl"></i>
+                        </div>
+                        <p class="text-gray-600 mb-6">
+                            "Their herbal supplements have made a significant difference in my daily wellness routine. Quality products backed by ancient wisdom."
+                        </p>
+                        <div class="flex items-center justify-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
+                                <i class="ri-user-3-line text-xl text-gray-500"></i>
+                            </div>
+                            <div class="text-left">
+                                <h4 class="font-semibold text-gray-800">Emma Thompson</h4>
+                                <p class="text-gray-500">Holistic Health Coach</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-6">
+                        <i class="ri-leaf-line text-primary text-2xl"></i>
+                        <span class="font-['Pacifico'] text-xl">Aushadi Veda</span>
+                    </div>
+                    <p class="text-gray-400">
+                        Discover the power of natural healing through ancient wisdom and modern science.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Products</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Virtual Tour</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Home Remedies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Support</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Shipping Info</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Returns</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Newsletter</h3>
+                    <p class="text-gray-400 mb-4">
+                        Subscribe to receive updates about new products and healing tips.
+                    </p>
+                    <div class="flex gap-2">
+                        <input type="email" placeholder="Your email" class="flex-1 px-3 py-2 rounded-button bg-gray-800 border-none text-white placeholder-gray-500">
+                        <button class="px-2 py-2 bg-primary text-white rounded-button hover:bg-primary">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2025 Aushadi Veda. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
